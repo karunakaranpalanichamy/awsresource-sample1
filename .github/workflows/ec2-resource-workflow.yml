@@ -1,6 +1,7 @@
 name: infrastructure pipeline
 on: 
-  push: [ main,master]
+  push: 
+    branches: [ main,master]
   workflow_dispatch: 
 jobs:
   deploy:
